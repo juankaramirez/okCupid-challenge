@@ -1,0 +1,20 @@
+{
+  "name": "okcupid-challenge",
+  "version": "1.0.4",
+  "description": "okCupid Challenge solution",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "bin": {
+      "okcupidsolution": "./bin/start.js"
+  },
+  "preferGlobal": true,
+  "author": "Juan Camilo Ramirez <juan.ramirezpadilla@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/juankaramirez/okCupid-challenge",
+  "dependencies": {
+    "prettyjson": "^1.2.1"
+  }
+}
