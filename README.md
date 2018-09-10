@@ -5,6 +5,7 @@
 
 ## Installation
 
+###### Node js
 ```bash
 npm install -g okcupid-challenge
 ```
