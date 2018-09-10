@@ -30,13 +30,13 @@ var solution = function(){
         var data = JSON.parse(contents);
 
         //Loop iteration through the profiles data.
-        //This loop will serve as Profile A (in order to contrast Profile A against Profile B)
+        //Loop 1: This loop will serve as Profile A (in order to contrast Profile A against Profile B)
         for (a_profile of data.profiles) {
 
             var id = a_profile['id'];
             ranking = [];
 
-            //This lopp will serve as Profile B (in order to contrast Profile B against Profile A)
+            //Loop 2: This loop will serve as Profile B (in order to contrast Profile B against Profile A)
             for (b_profile of data.profiles) {
 
                 //It's important to avoid the same profile.
@@ -51,13 +51,13 @@ var solution = function(){
 
                 //Now, we need to find the set of questions that both Profile A and Profile B anwered
 
-                //Loop Iteration through the answers provided by Profile B            
+                //Loop 3: Iteration through the answers provided by Profile B            
                 for (b_answer of b_profile['answers']) {
 
                     var b_questionId = b_answer['questionId'];
                     var b_importance = b_answer['importance'];
 
-                    //Loop Iteration through the answers provided by Profile A
+                    //Loop 4: Iteration through the answers provided by Profile A
                     for (a_answer of a_profile['answers']) {
 
                         var a_questionId = a_answer['questionId'];

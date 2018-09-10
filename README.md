@@ -1,6 +1,7 @@
 # okCupid-challenge
 
->A solution for the okCupid challenge
+>A solution for the okCupid challenge. See the notes at OkCupid-Challenge-notes.pdf.
+
 
 ## Installation
 
